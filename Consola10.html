@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Cocktail Assistant</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="Chat10.js"></script>
+</head>
+<body>
+	<h1>Cocktail Assistant</h1>
+	<form>
+		<label for="search">Search Cocktail:</label>
+		<input type="text" id="search" name="search">
+		<button type="button" onclick="searchCocktail()">Search</button>
+	</form>
+	<div id="cocktail-container"></div>
+	<h2>Shopping List</h2>
+	<ul id="shopping-list"></ul>
+	<button type="button" onclick="printList()">Print Shopping List</button>
+</body>
+</html>
